@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Search User</title>
-   <!-- orig <link rel="stylesheet" href="https://bootswatch.com/5/cyborg/bootstrap.min.css">-->
-   <link rel="stylesheet" href="https://bootswatch.com/5/cosmo/bootstrap.min.css">
+   <link rel="stylesheet" href="https://bootswatch.com/5/cyborg/bootstrap.min.css">
+   <!-- <link rel="stylesheet" href="https://bootswatch.com/5/cosmo/bootstrap.min.css">  -->
     <script>
         function showSuggestion(str) {
            if(str.length==0) {
@@ -29,7 +29,7 @@
 
 <body>
     <div class="container">
-        <h1>Search Users</h1>
+        <!-- <h1>Search Users</h1> -->
         <form>
             Search User: <input type="text" class="form-control"
             onkeyup="showSuggestion(this.value)">
